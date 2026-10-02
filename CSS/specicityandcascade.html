@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color:hotpink;
+        }
+        h1.yellow{
+            color:aqua;
+        }
+        .cpurple{
+            color:blueviolet;
+        }
+        .cred{
+            color:pink;
+         }
+        /*This is am exmaple of attribute selector */
+        [data-x="a"]{
+            color:red;
+        }
+        .yellow{
+            color:green !important;
+        }
+        
+    </style>
+</head>
+<body>
+    <div>
+        <h1  data-x="a" class="yellow cred cpurple">css speficity</h1>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css sizing</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size:25px;
+        }
+        .box {
+            box-sizing: border-box;
+            border: 2px solid black;
+            margin:25px auto;
+            background-color: aquamarine;
+        }
+        .container{
+            border:5px dotted red;
+            color:rgba(214, 32, 32, 1);
+            font-size:10px;
+            width:70vw;
+            height:90vh;
+        }
+        .container p{
+            font-size:1.5em;
+            width:50%;
+            height:50%;
+            border:2px solid blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        i am a div and i am block
+    </div>
+    <div class="container">
+        <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus debitis nihil dolores quia blanditiis
+        temporibus sint velit eveniet, accusantium optio, doloremque numquam assumenda error quod ducimus iure quidem
+        sit labore nesciunt tenetur architecto, neque incidunt? Rerum, totam deleniti cum quibusdam nisi dolore nulla
+        eveniet! Beatae enim voluptatibus repudiandae natus excepturi ullam laborum odio non sequi laudantium.
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+h1{
+    color:aqua;
+    background-color:black;
+}
+.box {
+    display:inline-block;
+    width: 250px;
+    height: 250px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+#special{
+    color:red;
+}

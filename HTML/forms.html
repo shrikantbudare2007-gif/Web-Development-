@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html forms-learning</title>
+</head>
+
+<body>
+    <h1>Form for to fill up,to join our club</h1>
+    <form action="post" method="post">
+        <div>
+            <label for="Name">Enter the username</label>
+            <input type="text" name="username" id="Name" placeholder="Entre your name" required>
+        </div>
+        <div>
+            <label for="phonenumber">Enter the Phoone Number</label>
+            <input type="tel" name="phone" id="phonenumber" placeholder="phonenumber">
+        </div>
+        <div>
+            <label>Enter the gender</label>
+            <input type="radio" name="gender" id="male" valve="Male">
+            <label for="male">Female</label>
+            <input type="radio" name="gender" id="female" valve="Female">
+            <label for="female">Male</label>
+        </div>
+        <div>
+            <input type="checkbox" name="collegeyear" id="class">
+            <label for="class">In college</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment</label>
+            <textarea id="comment" name="comment" rows="5o" cols="80"> 
+        </textarea>
+        </div>
+        <select name="year">
+            <option value="1st Year">1st year</option>
+            <option value="2nd Year">2thnd year</option>
+            <option value="3rd Year">3rt year</option>
+            <option value="4th Year">4th year</option>
+        </select>
+    </form>
+</body>
+
+</html>
